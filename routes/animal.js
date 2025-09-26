@@ -1,6 +1,10 @@
+// routes/animal.js
+
 const express = require('express');
 const { createClient } = require('pexels');
-const pexelsClient = "goT7jSJYxYoqXLfc0i66CmfxqZ1ty8IeSGEl4qYVvZhDV3NjJT2Ny8ro";
+
+// Correctly create a Pexels client instance
+const pexelsClient = createClient('goT7jSJYxYoqXLfc0i66CmfxqZ1ty8IeSGEl4qYVvZhDV3NjJT2Ny8ro');
 
 const router = express.Router();
 
@@ -10,7 +14,6 @@ const animalImages = {
   lion: 'https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg',
   elephant: 'https://upload.wikimedia.org/wikipedia/commons/3/37/African_Bush_Elephant.jpg',
   pixelclass: 'https://ik.imagekit.io/pxc/pixel%20class%20fav-02.png?updatedAt=1735069173555',
-  elephant: 'https://upload.wikimedia.org/wikipedia/commons/3/37/African_Bush_Elephant.jpg',
   mann: 'https://ik.imagekit.io/pxc/t-man-removebg.png?updatedAt=1737288208061',
   man: 'https://ik.imagekit.io/pxc/t-man-removebg.png?updatedAt=1737288208061'
 };

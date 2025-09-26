@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "man.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,5 +13,14 @@
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "pexels": "^1.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/man-navlakha/img-server.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/man-navlakha/img-server/issues"
+  },
+  "homepage": "https://github.com/man-navlakha/img-server#readme"
 }
